@@ -1,0 +1,83 @@
+body {
+    background-color: #161845;
+    color: #FFE3CE;
+    line-height: 2;
+    font-family: "Georgia", sans-serif;
+    font-size: 17px;
+}
+
+.row1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: #FFC192;
+}
+
+h3 {
+    padding-top: 20px;
+    color: #FFC192;
+}
+
+.intro {
+    padding: 50px;
+    margin-left: 0px;
+}
+
+.vert-divider {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pubs {
+    background-color: #161845;
+    padding: 50px;
+    margin-left: 0px;
+}
+
+.row2 {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #FFE3CE;
+    text-decoration: none;
+}
+
+.btn-main {
+    background-color: #343784 !important;
+    border-color: #343784 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.btn-pub {
+    background-color: #232557 !important;
+    border-color: #232557 !important;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: #232557;
+    color: #FFC192;
+}
+
