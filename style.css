@@ -1,9 +1,9 @@
 body {
-    background-color: #1e1f37;
-    color: #FFEDE0;
-    line-height: 2;
+    background-color: #fafafc;
+    color: #363d85;
+    line-height: 1.7;
     font-family: "Georgia", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .row1 {
@@ -23,12 +23,12 @@ p {
 }
 
 h2 {
-    color: #FED1AE;
+    color: #363d85;
 }
 
 h3 {
     padding-top: 20px;
-    color: #FED1AE;
+    color: #363d85;
 }
 
 .intro {
@@ -42,7 +42,7 @@ h3 {
 }
 
 .pubs {
-    background-color: #1e1f37;
+    background-color: #fafafc;
     padding: 50px;
     margin-left: 0px;
 }
@@ -52,16 +52,17 @@ h3 {
 }
 
 a {
-    color: #FFEDE0;
+    color: #363d85;
     text-decoration: none;
 }
 
 .btn-main {
-    background-color: #393B7C !important;
-    border-color: #393B7C !important;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    background-color: #dfecff !important;
+    border-color: #dfecff !important;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .name {
@@ -69,15 +70,76 @@ a {
 }
 
 .btn-pub {
-    background-color: #393B7C !important;
-    border-color: #393B7C !important;
-    margin-right: 15px;
+    background-color: #dfecff !important;
+    border-color: #dfecff !important;
+    margin-right: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 mark {
-    background-color: #2e306d;
-    color: #FED1AE;
+    background-color: #dff4ff;
+    color: #363d85;
+    font-weight: bold;
 }
 
+.pic {
+    background-color: #262948;
+    padding: 7pt;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pic-caption {
+    background-color: #fafafc;
+    padding: 7pt;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+img {
+    width: 99%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.intro-text {
+    margin-bottom: 80px;
+}
+
+.border {
+    border-color: #acacd1 !important;
+    border-radius: 10px;
+    border-width: 1px !important;
+    padding: 12px;
+    box-shadow: -5px 5px 5px #e8edf8;
+}
+
+.border-special {
+    border-color: #acacd1 !important;
+    border-radius: 10px;
+    border-width: 1px !important;
+    padding: 12px;
+    box-shadow: -5px 5px 5px #adbfe6;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
