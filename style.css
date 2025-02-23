@@ -32,7 +32,10 @@ h3 {
 }
 
 .intro {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
     margin-left: 0px;
 }
 
@@ -43,12 +46,16 @@ h3 {
 
 .pubs {
     background-color: #fafafc;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
     margin-left: 0px;
 }
 
 .row2 {
-    margin-bottom: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -118,7 +125,7 @@ img {
 }
 
 .intro-text {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .border {
@@ -134,12 +141,19 @@ img {
     border-radius: 10px;
     border-width: 1px !important;
     padding: 12px;
-    box-shadow: -5px 5px 5px #adbfe6;
+    box-shadow: -5px 5px 5px #c7d5f4;
 }
 
 footer {
     text-align: center;
     font-size: 15px;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 20px;
+}
+
+.right_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
